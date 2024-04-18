@@ -1,16 +1,13 @@
-header{
-    width:auto;
+.header{
     background-color: #171C8F;
     height: 840px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
-html{
-    width: 1400px;
-}
+
 .conteiner_head{
     height: 97px;
-    width: 1240px;
+    /* width: 1780px; */
     border: 2px solid black;
     display: flex;
     justify-content: space-between;
@@ -24,7 +21,7 @@ html{
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 3vw;
+    font-size: 60px;
     border: 2px solid black;
     letter-spacing:-1px;
     z-index: 2;
@@ -34,13 +31,13 @@ html{
     font-weight:100;
     font-style: normal;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 20px;
     
 }
 nav{
     border: 2px solid black;
-    height: 31%;
-    width: 40vw;
+
+    width: 850px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,19 +51,16 @@ nav{
 }
 .conteiner_title{
     border: 2px solid rgb(190, 53, 53);
-    width: 90vw;
-    height: 90vh;
-    margin-left: 4%;
-    margin-right: 8vw;
+    height: 728px;
+    margin-left:80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 h1{
     border: 2px solid black;
-    width: 30vw;
     color: #D7B9E4;
-    font-size: 4vw;
+    font-size: 80px;
     font-family: "Roboto", sans-serif;
     font-weight:700;
     font-style:normal;
@@ -76,9 +70,10 @@ h1{
 }
 .head{
     border: 2px solid rgb(212, 10, 10);
-    height: 80vh;
-    width: 50vw;
+    height: 677px;
+    width: 735px;
    margin-left: 40px;
+   margin-right: 80px;
     
 }
 div.welcome{
@@ -92,7 +87,7 @@ p.welcome{
     font-weight:500;
     font-style: normal;
     color: #FFFFFF;
-    font-size: 2dvi;
+    font-size: 30px;
     width: 338px;
     border: 2px solid rgb(255, 255, 255);
     margin-top: 0;
@@ -100,8 +95,8 @@ p.welcome{
     line-height: 37.2px
 }
 .circle{
-    width: 10vw;
-    height: 20vh;
+    width: 150px;
+    height: 150px;
     margin-top: -10px;
     margin-left: 0;
     margin-bottom: 0;
