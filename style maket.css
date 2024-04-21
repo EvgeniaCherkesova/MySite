@@ -138,7 +138,7 @@ p.welcome{
 }
 .news{
     border: 2px solid rgb(255, 255, 255);
-    width: 390px;
+    width: 100%;
 }
 .white_title{
     background-color: #FFFFFF;
@@ -230,7 +230,6 @@ color: #000000;
 }
 .body{
     border: 2px solid rgb(22, 21, 21);
-    height:2530px ;
     display: flex;
     justify-content: center;
 }
@@ -241,7 +240,6 @@ color: #000000;
     margin-top: 50px;
     margin-left: 80px;
     margin-right: 80px;
-    height: 2276px;
     width: 100%;
 }
 .let{
@@ -372,7 +370,6 @@ border: 2px solid rgb(15, 242, 41);
 }
 .modern{
     border: 2px solid rgb(122, 6, 254);
-    height: 282px;
     width: 400px;
     font-family: 'Roboto';
     font-style: normal;
@@ -589,9 +586,11 @@ margin-bottom: 0;
     }
     h1{
         font-size: 40px;
+        line-height: 70px;
     }
     p.welcome{
         width: 100%;
+        font-size: 25px;
     }
     .circle{
         width: 110px;
@@ -606,7 +605,6 @@ margin-bottom: 0;
     .modern{
         font-size: 30px;
         width:500px;
-        height: 200px;
         margin: 40px;
     }
     .fresh{
@@ -618,5 +616,134 @@ margin-bottom: 0;
     }
     .coteiner_box{
         height: 600px;
+    }
+    .str{
+        margin-top: -400px;
+    }
+}
+@media (max-width: 1020px){
+    nav{
+        width: 500px;
+    }
+    .menu{
+        font-size: 15px;
+    }
+    .foto{
+        height: 200px;
+    }
+    .pink{
+        height: 450px;
+    }
+    .girl{
+        height: 510px
+    }
+    .conteiner_title{
+        height: 450px
+    }
+    .head{
+        height: 465px;
+        margin-right: 10px;
+    }
+    h1{
+        font-size: 35px;
+        line-height: 65px;
+    }
+    p.welcome{
+        width: 100%;
+        font-size: 20px;
+    }
+    .circle{
+        width: 100px;
+        height: 100px;
+    }
+    .header{
+        height: 550px;
+    }
+    .name{
+        font-size: 35px;
+    }
+    nav{
+        width: 400px;
+}
+.box{
+    padding-top: 40px;
+    height: 500px;
+}
+.coteiner_box {
+    height: 480px;
+}
+.box_text{
+    height: 100%;
+}
+.modern {
+    width: 450px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 53px;
+    font-size: 25px
+}
+.fresh{
+    margin-left:40px;
+    margin-right: 0px;
+}
+.foto_blok{
+    height: 260px;
+}
+.text_blok2{
+    margin-top: 40px;
+}
+.around{
+    font-weight: 600;
+    font-size: 35px;
+}
+.foto2{
+    height: 330px;
+}
+.blok{
+    height: 510px;
+}
+.let{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+}
+@media (max-width: 800px){
+    .modern {
+        width: 100%;
+        line-height: 53px;
+        font-size: 20px
+    }
+    .foto{
+        height: 130px;
+    }
+    .pink{
+        height: 350px;
+        
+    }
+    .text{
+        font-size: 20px;
+
+    }
+    .str{
+        margin-top: -330px;
+    }
+    .str1{
+        font-size: 35px;
+        width: 30px;
+        height: 50px;
+    }
+    .str2{
+        font-size: 35px;
+        width: 30px;
+        height: 50px;
+    }
+    .body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .conteiner_body{
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
