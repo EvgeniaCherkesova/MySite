@@ -533,6 +533,103 @@ margin-bottom: 0;
     margin-top: -200px;
     width: 100%;
 }
+footer{
+    background-color: #477A7B;
+    height: max-content;
+}
+.footer_title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.keep{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 35px;
+letter-spacing: 4.32px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.white_button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #477A7B; 
+    border-radius: 30px;
+    width:max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.get{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+letter-spacing: 0.21px;
+color: #FFFFFF;
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    border:1px solid #87b8b9;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 7px 7px;
+    grid-column-gap: 16vw;
+    justify-items: start;
+}
+.logotip{
+    background-image:url("imeges/Frame.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 11vw;
+    margin-top: 16px;
+}
+.list{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.adres{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: 0.19px;
+color: #FFFFFF;
+}
+.last{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.98px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 60px;
+}
+.footer3{
+    padding: 15px;
+}
 @media (max-width: 1420px) {
     nav{
         width: 710px;
@@ -698,6 +795,9 @@ margin-bottom: 0;
 .blok{
     height: max-content;
 }
+.blok2{
+    height: 526px;
+}
 .let{
     font-size: 40px;
     margin-bottom: 0;
@@ -813,8 +913,67 @@ margin-bottom: 0;
         width: 30px;
         height: 20px;
     }
+    .keep{
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .white_button{
+        padding-left: 10px;
+        padding-right: 7px;
+        padding-top: 11px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .get{
+        font-size: 14px;
+        line-height: 13px;
+    }
+    .adres{
+        font-size: 13px;
+    line-height: 24px;
+    }
+    .list{
+        font-size: 10px;
+        line-height: 19px;
+    }
+    .last{
+        font-size: 10px;
+        margin-left: 30px;
+    }
 }
 @media(max-width: 620px){
+    .keep{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .white_button{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 6px;
+    }
+    .get{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .adres{
+        font-size: 7px;
+    line-height: 15px;
+    }
+    .list{
+        font-size: 5px;
+        line-height: 6px;
+    }
+    .last{
+        font-size: 5px;
+        margin-left: 20px;
+    }
+    .logotip{
+        width: 5vw;
+    height: 7vw;
+    margin-top: 8px;
+    }
     .fotobox {
         display: flex;
         flex-direction: column;
@@ -855,9 +1014,9 @@ margin-bottom: 0;
         height: max-content;
     }
     .foto3{
-        width: 23%;
-        margin: 10px;
-        height: 117px;
+        width: 75%;
+        margin-bottom: 10px;
+        height: 72vw;
     }
     .conteiner_head{
         display: flex;
@@ -871,8 +1030,8 @@ margin-bottom: 0;
         height: max-content;
     }
     .girl{
-        width: 50%;
-        height: 42vw;
+        width: 89%;
+        height: 62vw;
         margin-top: 10px;
     }
     .header{
@@ -912,8 +1071,42 @@ margin-bottom: 0;
         height: 13px;
     }
     .email{font-size: 5px;}
+    .news {
+        width: 88vw;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foto {
+        height: 220px;
+        width: 76vw;
+    }
 }
 @media (max-width: 450px){
+    
+    .keep{
+        font-size: 5px;
+        font-weight: 500;
+    }
+    .white_button{
+        font-size: 5px;
+        letter-spacing: 1.3px;
+    }
+    .get{
+        font-size: 5px;
+    }
+    .adres{
+        font-size: 5px;
+    line-height: 10px;
+    }
+    .list{
+        font-size: 5px;
+    }
+    .last{
+        font-size: 5px;
+        margin-left: 10px;
+    }
 .end2{
     display: none;
 }
@@ -949,11 +1142,6 @@ margin-bottom: 0;
     font-size: 7px;
     margin-right: 35px;
     margin-bottom: 10px;
-}
-.foto3 {
-    width: 34%;
-    margin-bottom: 10px;
-    height: 130px;
 }
 .text_blok2{
     margin-bottom: 20px;
