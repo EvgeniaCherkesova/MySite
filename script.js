@@ -5,8 +5,10 @@ switchMode.onclick = function(){
     
     if(theme.getAttribute('href') == "style maket.css"){
         theme.href = "dark.css";
+        switchMode.innerText="standart theme"
     }
     else{
         theme.href = "style maket.css";
+        switchMode.innerText="spring theme"
     }
 }
