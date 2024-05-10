@@ -639,6 +639,8 @@ margin-left: 60px;
 }
 .footer3{
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 @media (max-width: 1420px) {
     nav{
