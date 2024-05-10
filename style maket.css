@@ -1,8 +1,7 @@
 .header{
     background-color: #171C8F;
     height: 840px;
-    /* display: flex; */
-    justify-content: center;
+    
 }
 .switch{
     background-color: #FFFFFF;
@@ -16,20 +15,19 @@
     letter-spacing:2.08px;
     line-height: 14px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    margin-left: 20px;
 }
 .conteiner_head{
     height: 97px;
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 40px;
-    padding-right: 80px;
-    z-index: 2;
+    padding-right: 15px;
 }
 .name{
     color: white;
@@ -37,9 +35,7 @@
     font-weight: 100;
     font-style: normal;
     font-size: 60px;
-    /* border: 2px solid black; */
     letter-spacing:-1px;
-    z-index: 2;
 }
 .menu{
     font-family: "Roboto", sans-serif;
@@ -50,8 +46,7 @@
     
 }
 nav{
-    /* border: 2px solid black; */
-    width: 850px;
+    width: 730px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,7 +61,6 @@ nav{
     background-repeat: no-repeat;
 }
 .conteiner_title{
-    /* border: 2px solid rgb(190, 53, 53); */
     height: 728px;
     margin-left:40px;
     display: flex;
@@ -648,7 +642,7 @@ margin-left: 60px;
 }
 @media (max-width: 1420px) {
     nav{
-        width: 710px;
+        width: 610px;
     }
     h1{
         font-size: 50px;
@@ -685,6 +679,13 @@ margin-left: 60px;
     }
     nav{
         width: 600px;
+    }
+    .switch{
+        font-size: 13px;
+        padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 7px;
     }
     h1{
         font-size: 40px;
@@ -733,10 +734,10 @@ margin-left: 60px;
         height: 80px;
     }
     nav{
-        width: 400px;
+        width: 500px;
     }
-    .menu{
-        font-size: 15px;
+    .switch{
+        font-size: 10px;
     }
     .foto{
         height: 200px;
@@ -842,6 +843,10 @@ margin-left: 60px;
     .foto{
         height: 130px;
     }
+    .switch{
+        padding-left: 6px;
+        padding-right: 3px;
+    }
     .pink{
         height: 350px;
         padding: 20px;
@@ -883,10 +888,11 @@ margin-left: 60px;
         margin: 0;
     }
     nav{
-        width: 300px
+        width: 340px
     }
     .menu{
         font-size: 10px;
+        font-weight: 700;
     }
     h1 {
         font-size: 25px;
@@ -900,7 +906,6 @@ margin-left: 60px;
     }
     .conteiner_head{
         padding-left: 20px;
-        padding-right: 40px;
     }
     .conteiner_title{
         margin-left: 20px;
@@ -1047,8 +1052,8 @@ margin-left: 60px;
         margin-left: 0px;
     }
     .girl{
-        width: 83%;
-        height: 69vw;
+        width: 82.3%;
+        height: 70vw;
         margin-top: 10px;
     }
     .header{
