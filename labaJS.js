@@ -23,6 +23,7 @@
 // 9. null == '': null будет преобразовано в 0, a пустая строка в 0. Результатом будет true, так как 0 равно 0.
 
 //задание 1
+console.log('задание 1.1');
 let value = 'sring';
 if (typeof(value) == 'number'){
     console.log("type number");
@@ -37,6 +38,7 @@ else if (typeof(value) == 'object'){
     console.log("type object");
 }
 //задание 1
+console.log('задание 1.1.1')
 // let input = prompt("знак зодиака:");
 // switch(input){
 //     case 'водолей': window.alert('Приветствуем вас, ' + input);break;
@@ -47,26 +49,41 @@ else if (typeof(value) == 'object'){
 // }
 
 //задание 2
-// let i=1;
-// for (i; i<20; i++){
-//     console.log(i);
-// }
-// while (i<30){
-//     console.log(i);
-//     i++;
-// }
+console.log('задание 1.2')
+let i=1;
+for (i; i<20; i++){
+    console.log(i);
+}
+while (i<30){
+    console.log(i);
+    i++;
+}
 
-// do{
-//     console.log(i);
-//     i++;
-// } while(i<41);
+do{
+    console.log(i);
+    i++;
+} while(i<41);
 
 //задание 3
-// setInterval(()=>{
-//     window.alert('вирусное окно');
-// }, 3000);
+// console.log('задание 1.3')
+// let button = document.querySelector('.virus');
+// button.addEventListener('click', function () {
+//     button.classList.add('stop');
+//     button.innerText ='stop';
+//     let int = setInterval(()=>{
+//         window.alert('вирусное окно');
+//         return intervalID;
+//     }, 3000)
+// }
+// )
+// let stopBtn = document.querySelector('.stop');
+// stopBtn.addEventListener('click', function(){
+//     clearInterval(int);
+// })
+
 
 //задание 4
+// console.log('задание 1.4')
 // let arr = [];
 // for( let i=1;i<4;i++){
 //     arr[i] = prompt('Введите '+ i + ' число:')
@@ -87,12 +104,14 @@ else if (typeof(value) == 'object'){
 // console.log(arr[1] ,arr[2] ,arr[3]);
 
 //задание 5
+// console.log('задание 1.5');
 // for(let i=0;i<=15;i++){
 //     if(i%2 == 0) console.log(i + '- четное');
 //     else console.log(i + '- нечетное');
 // }
 
-//задание 6
+// //задание 6
+// console.log('задание 1.6');
 // let num = prompt('введите число больше 5');
 // while(1){
 //     if(num == null) break;
@@ -104,16 +123,19 @@ else if (typeof(value) == 'object'){
 // }
 
 //задание 7
-// for(let i=8;i<=20;i++){
-//     if(i%2 == 0) console.log(i);}
+console.log('задание 1.7');
+for(let i=8;i<=20;i++){
+    if(i%2 == 0) console.log(i);}
 
 // //задание 8
+console.log('задание 1.8')
 // let sum=0;
 //  for(let i=0;i<=1000;i++){
 //     if(i%3 == 0 || i%5==0) sum=sum+i}
 // console.log(sum);
 
 // //задание 9
+console.log('задание 1.9');
 // let num =298,num2=num; i=0, b=100;
 // let arr=[];
 // while(num!=0){
@@ -125,8 +147,9 @@ else if (typeof(value) == 'object'){
 // if(num2 == (arr[0]**3 + arr[1]**3 + arr[2]**3)) console.log('является');
 // else console.log('не является');
 
+//задание 10
+console.log('задание 1.10')
  for(let i=0;i<5;i++){
-// //задание 10
    for(let j=0;j<=i;j++){
         console.log('*');
     }
@@ -135,13 +158,15 @@ else if (typeof(value) == 'object'){
 
 //////// Практическая работа №2
 //задание 1
-// function sayHello(){
-//     const text = document.querySelector('.say');
-//     text.innerHTML = 'HELLO!';
-// }
-// sayHello();
+console.log('задание 2.1');
+function sayHello(){
+    const text = document.querySelector('.say');
+    text.innerHTML = 'HELLO!';
+}
+sayHello();
 
 //задание 2
+console.log('задание 2.2');
 // let nam = prompt('ваше имя:');
 // let element = document.querySelector('.hi');
 // element.addEventListener('click', function() {
@@ -149,6 +174,7 @@ else if (typeof(value) == 'object'){
 // })
 
 //задание 3
+console.log('задание 2.3');
 // function min(a,b){
 //     if(a>b) return b;
 //     else return a;
@@ -158,6 +184,7 @@ else if (typeof(value) == 'object'){
 // console.log(res);
 
 //задания 4 и 5
+console.log('задание 2.4 и 2.5');
 // function kalkulator(a,b,c){
 //     if(a == null || b ==null || c == null) return null;
 //     let dis = b**2 -(4*a*c);
@@ -179,21 +206,25 @@ else if (typeof(value) == 'object'){
 
 ///////////////// практическая работа № 3
 //  задание 1
+console.log('задание 3.1');
 let array1 = [];
 let array2 = [1,2,3,4,5,6,7,8];
 let array3 = new Array();
 let array = Array.of();
 // задание 2
+console.log('задание 3.2');
 console.log(array2[4]);
 array2[4] = 2;
 
 // задание 3
+console.log('задание 3.3');
 // let btn = document.querySelector('.lend');
 // btn.addEventListener('mousemove', function() {
 //         window.alert(array2.length);
 //     })
 
 //задание 4
+console.log('задание 3.4');
 // for(let i=0;i<array2.length;i++){
 //     console.log(array2[i]);
 // }
@@ -203,19 +234,23 @@ array2[4] = 2;
 // alert(array2);
 
 //задание 5
+console.log('задание 3.5');
 // let newArr1 = ['апельсин', 'лимон'];
 // let newArr2 = ['яблоко', 'виноград'];
 // let transform = newArr1.concat(newArr2);
 // console.log(transform);
 
 // //задание 6,7
+console.log('задание 3.6(7)');
 // let val = transform.pop();
 // console.log(val);
 // //8
+console.log('задание 3.8');
 // transform.unshift('банан');
 // console.log(transform);
 
 //9
+console.log('задание 3.9');
 // let numbers=[];
 // let i =-1;
 // do{
@@ -237,15 +272,38 @@ array2[4] = 2;
 // console.log(newArr)
 
 //
+console.log('задание 3.9.9');
 let data = new Date();
 let div = document.querySelector('.data');
 div.innerText = data;
-let datD = data.getDay();
+// задание 10
+console.log('задание 3.10');
+function month(datM) {
+    switch (datM) {
+        case 0:
+            return 'января'; break;
+        case 1:
+            return 'февраля';break;
+        case 2:
+            return 'марта';break;
+        case 3:
+            return 'апреля';break;
+        case 4:
+            return 'мая';break;
+        case 5:
+            return 'июня';break;
+        case 6:
+            return 'июля';break;
+    } 
+}
+let datD = data.getDate();
 let datM = data.getMonth();
 let datY = data.getFullYear();
-console.log(data);
+let mon = month(datM);
+console.log(datD, mon, datY);
 
 //11
+console.log('задание 3.11');
 function random(max){
     let a = Math.floor((Math.random()*max));
     let b = Math.floor((Math.random()*max));
@@ -257,5 +315,32 @@ console.log(random(max));
 
 ///////////практическая работа №4
 // задание 1
-let object = new Object();
-let object2 = {};
+console.log('задание 4.1 и 4.2');
+let student = new Object();
+let student2 = {
+    name: "Ivan",
+    age: 30,
+    city: 'Saratov',
+    street: "2-ya Sadovaya",
+    house: 97,
+    year: 2024,
+    showAdress(){
+        console.log(student2.city, student2.street, student2.house);
+    },
+    bornYear(){
+        console.log(`год рождения: ${student2.year - student2.age}`);
+    },
+};
+student2.showAdress();
+student2.bornYear();
+
+//задание 3
+console.log('задание 4.3');
+function Student(name, surname, gruppa) {
+    this.name = name;
+    this.surname = surname;
+    this.grup = gruppa;
+    this.univercity = 'ИнПИТ';
+}
+const student1 = new Student('Евгения', 'Черкесова', "б1-ИФСТ-14");
+console.log(student1);

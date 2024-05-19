@@ -69,7 +69,6 @@ nav{
     align-items: center;
 }
 h1{
-    /* border: 2px solid black; */
     color: #D7B9E4;
     font-size: 80px;
     font-family: "Roboto", sans-serif;
@@ -80,7 +79,6 @@ h1{
     line-height: 84.2px;
 }
 .head{
-    /* border: 2px solid rgb(212, 10, 10); */
     height: 677px;
     width: 735px;
    margin-left: 40px;
@@ -88,7 +86,6 @@ h1{
     
 }
 div.welcome{
-    /* border: 2px solid rgb(69, 233, 20); */
     width: 100%;
     margin: 0;
     display: inline-block;
@@ -100,16 +97,14 @@ p.welcome{
     color: #FFFFFF;
     font-size: 30px;
     width: 338px;
-    /* border: 2px solid rgb(255, 255, 255); */
     margin-top: 0;
     letter-spacing:0.24px;
-    line-height: 37.2px
+    line-height: 44.2px
 }
 .circle{
     width: 150px;
     height: 150px;
     margin-top: -10px;
-    /* border: 2px solid rgb(255, 255, 255); */
     background-image: url("imeges/круг.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -126,7 +121,6 @@ p.welcome{
 .fotobox{
     display: flex;
     justify-content:space-evenly;
-    /* border: 2px solid rgb(223, 30, 30); */
     width: 100%;
 }
 .foto{
@@ -148,7 +142,6 @@ p.welcome{
     background-repeat: no-repeat;
 }
 .news{
-    /* border: 2px solid rgb(255, 255, 255); */
     width: 100%;
 }
 .white_title{
@@ -191,7 +184,6 @@ color: #000000;
     text-decoration-thickness: 3px;
 }
 .str{
-    /* border: 2px solid rgb(22, 21, 21); */
     display: flex;
     justify-content: space-between;
     margin-top: -350px;
@@ -248,19 +240,18 @@ color: #000000;
     width: 100%;
 }
 .let{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 53px;
-line-height: 84px;
-letter-spacing: 7.65px;
-text-transform: uppercase;
-color: #000000;
-margin-left: 40px;
-
-transform: translate(0px, 120%);
-opacity: 0;
-transition: all 0.8s ease 0s;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 84px;
+    letter-spacing: 7.65px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 40px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
 
 .left{
@@ -313,7 +304,7 @@ line-height: 36px;
 letter-spacing: 4.8px;
 text-transform: uppercase;
 color: #000000; 
-transform: translate(0px, 300px);
+transform: translate(0px, 100px);
 opacity: 0;
 transition: all 0.8s cubic-bezier(0, 0.71, 0.46, 1.14) 0s;
 }
@@ -335,7 +326,6 @@ transition: all 0.8s cubic-bezier(0, 0.71, 0.46, 1.14) 0s;
     justify-content: center;
 }
 .coteiner_box{
-    /* border: 2px solid rgb(23, 15, 242); */
     height: 665px;
     display: flex;
     justify-content: space-around;
@@ -343,7 +333,6 @@ transition: all 0.8s cubic-bezier(0, 0.71, 0.46, 1.14) 0s;
     width: 100%;
 }
 .town{
-    /* border: 2px solid rgb(156, 20, 20); */
     width: 100%;
     height: 100%;
     background-image: url("imeges/town.jpg");
@@ -351,12 +340,10 @@ transition: all 0.8s cubic-bezier(0, 0.71, 0.46, 1.14) 0s;
     background-repeat: no-repeat;
 }
 .box_text{
-    /* border: 2px solid rgb(15, 57, 242); */
     height: 550px;
     
 }
 .modern{
-    /* border: 2px solid rgb(122, 6, 254); */
     width: 400px;
     font-family: 'Roboto';
     font-style: normal;
@@ -371,13 +358,13 @@ transition: all 0.8s cubic-bezier(0, 0.71, 0.46, 1.14) 0s;
     margin-top: 60px;
 }
 .fresh{
-    /* border: 2px solid rgb(15, 45, 242); */
+
     margin-right: 80px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 21px;
-    line-height: 33px;
+    line-height: 43px;
     letter-spacing: 0.21px;
     color: #000000;
     margin-left: 80px;

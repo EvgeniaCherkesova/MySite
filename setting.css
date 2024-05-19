@@ -1,0 +1,61 @@
+.absolut{
+    background-color: #EDEDED;
+    position: fixed;
+    width: 62px;
+    height: 240px;
+    left: 95%;
+    top: 131px;
+}
+
+.white{
+    box-sizing: border-box;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 18px;
+    top: 138px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.black{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 18px;
+    top: 174px;
+    background: #000000;
+}
+
+.minus{
+    position:absolute;
+    width: 41px;
+    height: 15px;
+    left: 11px;
+    top: 90px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.plus{
+    position: absolute;
+    width: 47px;
+    height: 15px;
+    left: 11px;
+    top: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 15px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #000000;
+}

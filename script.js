@@ -1,5 +1,4 @@
 let switchMode = document.getElementById('switch');
-console.log(switchMode)
 switchMode.onclick = function(){
     let theme = document.getElementById('theme');
     
@@ -12,6 +11,69 @@ switchMode.onclick = function(){
         switchMode.innerText="spring theme"
     }
 }
+ 
+const plus = document.querySelector('.plus');
+plus.onclick = function () {
+    let elements = document.querySelectorAll(".texnUp");
+    for (const element of elements) {
+        let size = parseInt(window.getComputedStyle(element).fontSize);
+        element.style.fontSize = size + 2 + 'px';
+    }
+}
+const minus = document.querySelector('.minus');
+minus.onclick = function () {
+    let elements = document.querySelectorAll(".texnUp");
+    for (const element of elements) {
+        let size = parseInt(window.getComputedStyle(element).fontSize);
+        element.style.fontSize = size - 2 + 'px';
+    }
+}
+const white = document.querySelector('.white');
+white.onclick = function(){
+    let text = document.querySelectorAll(".whiteText");
+    for (const element of text) {
+        element.style.color = 'black';
+    }
+    let fons = document.querySelectorAll(".blackfon");
+    for (const fon of fons) {
+        fon.style.backgroundColor = 'white';
+    }
+}
+const black = document.querySelector('.black');
+black.onclick = function(){
+    let text = document.querySelectorAll(".whiteText");
+    for (const element of text) {
+        element.style.color = 'white';
+    }
+    let fons = document.querySelectorAll(".blackfon");
+    for (const fon of fons) {
+        fon.style.backgroundColor = 'rgb(21, 21, 23)';
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const animItems = document.querySelectorAll('.anim');
 if(animItems.length > 0){

@@ -25,7 +25,6 @@
 }
 .conteiner_head{
     height: 97px;
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,15 +65,13 @@ nav{
     
 }
 .conteiner_title{
-    /* border: 2px solid rgb(190, 53, 53); */
-    /* height: 728px; */
     margin-left:40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 h1{
-    /* border: 2px solid black; */
+    
     color: #0e3022;
     background-color: #76968571;
     padding-left: 15px;
@@ -87,15 +84,12 @@ h1{
     line-height: 84.2px;
 }
 .head{
-    /* border: 2px solid rgb(212, 10, 10); */
-    /* height: 677px; */
     width: 735px;
    margin-left: 40px;
    margin-right: 80px;
     
 }
 div.welcome{
-    /* border: 2px solid rgb(69, 233, 20); */
     width: 95%;
     margin: 0;
     padding: 10px;
@@ -109,7 +103,6 @@ p.welcome{
     color: #060606;
     font-size: 30px;
     width: 338px;
-    /* border: 2px solid rgb(255, 255, 255); */
     margin-top: 0;
     letter-spacing:0.24px;
     line-height: 37.2px
@@ -118,7 +111,6 @@ p.welcome{
     width: 150px;
     height: 150px;
     margin-top: -10px;
-    /* border: 2px solid rgb(255, 255, 255); */
     background-image: url("imeges/круг.png");
     background-size: contain;
     background-repeat: no-repeat;
